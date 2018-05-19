@@ -21,11 +21,7 @@
                 overflow: hidden;
             }
             
-            canvas {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
+            
         
         </style>
 </head>
@@ -36,7 +32,7 @@
 			<a-asset-item id="prayer-obj" src="/models/prayer/prayer.obj"></a-asset-item>
 			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
 			<a-asset-item id="cathedral-obj" src="/models/cathedral/cathedral.obj"></a-asset-item>
-			<a-asset-item id="cathedra;-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
+			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
 		</a-assets>
 		
   		
@@ -47,7 +43,7 @@
   		</a-marker>
 		
 		<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
-            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.5 0.5 0.5"></a-entity>
+            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.2 0.2 0.2"></a-entity>
   		</a-marker>
 		
         
