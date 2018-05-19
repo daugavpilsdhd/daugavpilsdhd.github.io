@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <title>AR.js church hill</title>
+    <script src='js/three.min.js'></script>
+    <script src="js/OBJLoader.js"></script>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+	<script src="/js/aframe-ar.js"></script>
+   
+
+
+    <style>
+            body {
+                background: #00d8ff;
+                margin: 0px;
+                overflow: hidden;
+            }
+            
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        
+        </style>
+</head>
+
+<body>
+	<a-scene embedded arjs="debugUIEnabled: false">
+		<a-assets>
+			<a-asset-item id="prayer-obj" src="/models/prayer/prayer.obj"></a-asset-item>
+			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
+			<a-asset-item id="cathedral-obj" src="/models/cathedral/cathedral.obj"></a-asset-item>
+			<a-asset-item id="cathedra;-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
+		</a-assets>
+		
+  		
+		
+		
+		<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
+            		<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.5 0.5 0.5"></a-entity>
+  		</a-marker>
+		
+		<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
+            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.5 0.5 0.5"></a-entity>
+  		</a-marker>
+		
+        
+        
+</body>
+
+</html>
