@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
 
     <title>AR.js church hill</title>
@@ -21,8 +21,6 @@
                 overflow: hidden;
             }
             
-            
-        
         </style>
 </head>
 
@@ -33,16 +31,22 @@
 			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
 			<a-asset-item id="cathedral-obj" src="/models/cathedral/cathedral.obj"></a-asset-item>
 			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
+			<a-asset-item id="church-obj" src="/models/church/church.obj"></a-asset-item>
+			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item>
 		</a-assets>
 		
   		
 		
 		
-<!-- 		<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
+		<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
             		<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.5 0.5 0.5"></a-entity>
-  		</a-marker> -->
+		  </a-marker>
+		  
+		<a-marker preset="bottombar" type='pattern' url="/markers/bottombar.patt">
+			<a-entity obj-model="obj: #church-obj; mtl: #church-mtl" scale="0.5 0.5 0.5"></a-entity>
+  		</a-marker>
 		
-		<a-marker preset="topbar" type='pattern' url="/markers/centerbar.patt">
+		<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
             		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.2 0.2 0.2"></a-entity>
   		</a-marker>
 		
