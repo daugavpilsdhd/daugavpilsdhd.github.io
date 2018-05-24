@@ -25,7 +25,7 @@
 </head>
 
 <body>
-	<a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false" always-fullscreen>
+	<a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
 		<a-assets>
 			<a-asset-item id="prayer-obj" src="/models/prayer/prayer.obj"></a-asset-item>
 			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
@@ -53,7 +53,7 @@
   		</a-marker>
 		
 		<a-marker preset="centerbar" url="/markers/centerbar.patt">
-            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.2 0.2 0.2"></a-entity>
+            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="1 1 1"></a-entity>
   		</a-marker>
 		
         	<a-entity camera></a-entity>
