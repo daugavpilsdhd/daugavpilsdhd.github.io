@@ -11,7 +11,8 @@
     <script src="js/OBJLoader.js"></script>
     <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
 	<script src="/js/aframe-ar.js"></script>
-   
+    <script src="https://rawgit.com/bestiejs/platform.js/master/platform.js"></script>
+  	<script src="https://rawgit.com/protyze/aframe-always-fullscreen-component/master/dist/aframe-always-fullscreen-component.min.js"></script>
 
 
     <style>
@@ -25,7 +26,7 @@
 </head>
 
 <body>
-	<a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
+	<a-scene embedded always-fullscreen arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
 		<a-assets>
 			<a-asset-item id="prayer-obj" src="/models/prayer/prayer.obj"></a-asset-item>
 			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
