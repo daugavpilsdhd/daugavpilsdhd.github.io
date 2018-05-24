@@ -37,6 +37,7 @@
 			<a-asset-item id="tower-obj" src="/models/tower/tower.obj"></a-asset-item>
 			<a-asset-item id="tower-mtl" src="/models/tower/tower.mtl"></a-asset-item>
 			<a-asset-item id="bench-obj" src="/models/tower/bench.obj"></a-asset-item>
+			<a-asset-item id="bench-mtl" src="/models/tower/bench.mtl"></a-asset-item>			
 			<a-asset-item id="cathedral-gltf" src="/models/cathedral/cathedral.gltf"></a-asset-item>
 		</a-assets>
 		
@@ -60,11 +61,11 @@
 		  </a-marker>
 		  
 		<a-marker preset="bottombar" type='pattern' url="/markers/bottombar.patt">
-			<a-entity gltf-model="#cathedral-gltf" scale="0.1 0.1 0.1"></a-entity>
+			<a-entity gltf-model="#cathedral-gltf" scale="0.5 0.5 0.5"></a-entity>
   		</a-marker>
 
   		<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
-			<a-entity obj-model="obj: #bench-obj;" scale="0.1 0.1 0.1"></a-entity>
+			<a-entity obj-model="obj: #bench-obj; mtl: #bench-mtl" scale="0.1 0.1 0.1"></a-entity>
   		</a-marker>
 		
         	<a-entity camera></a-entity>
