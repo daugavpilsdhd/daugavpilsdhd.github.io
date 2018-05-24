@@ -35,6 +35,7 @@
 			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item>
 			<a-asset-item id="tower-obj" src="/models/tower/tower.obj"></a-asset-item>
 			<a-asset-item id="tower-mtl" src="/models/tower/tower.mtl"></a-asset-item>
+			<a-asset-item id="cathedral-dae" src="/models/cathedral/cathedral.dae"></a-asset-item>
 		</a-assets>
 		
   		
@@ -53,7 +54,11 @@
   		</a-marker> -->
 		
 		<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
-            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl;" scale="0.1 0.1 0.1"></a-entity>
+            		<a-entity obj-model="obj: #cathedral-obj; mtl: #cathedral-mtl" scale="0.1 0.1 0.1"></a-entity>
+  		</a-marker>
+
+  		<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
+            		<a-entity collada-model="#cathedral-dae" scale="0.1 0.1 0.1"></a-entity>
   		</a-marker>
 		
         	<a-entity camera></a-entity>
