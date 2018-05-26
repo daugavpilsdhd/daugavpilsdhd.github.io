@@ -1,4 +1,4 @@
-# Blender MTL File: 'cathedral_with_textures.blend'
+# Blender MTL File: 'cathedral_with_textures_and_disjointed.blend'
 # Material Count: 24
 
 newmtl Material
@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd tex_cathedral\wall.jpg
+map_Kd tex_cathedral\side_window.jpg
 
 newmtl Material_aluminium.jpg
 Ns 96.078431
@@ -78,17 +78,6 @@ d 1.000000
 illum 2
 map_Kd tex_cathedral\semicircle_window.jpg
 
-newmtl Material_side_window.jpg
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd tex_cathedral\side_window.jpg
-
 newmtl Material_small_stone.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -110,6 +99,17 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd tex_cathedral\stone.jpg
+
+newmtl Material_wall.jpg
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_cathedral\wall.jpg
 
 newmtl Material_walls.jpg
 Ns 96.078431
