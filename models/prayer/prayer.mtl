@@ -1,5 +1,5 @@
 # Blender MTL File: 'prayer.blend'
-# Material Count: 39
+# Material Count: 40
 
 newmtl Material
 Ns 96.078431
@@ -61,6 +61,24 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
+map_Kd tex_prayer\window.quad.jpg
+
+newmtl None_NONE
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl None_Untitled
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd white.png
 
 newmtl None_bord.jpg.001
 Ns 0
@@ -286,15 +304,6 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd tex_prayer\window.main.jpg
-
-newmtl None_window.quad.jpg
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_prayer\window.quad.jpg
 
 newmtl None_window.quad.jpg.001
 Ns 0
