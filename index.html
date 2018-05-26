@@ -25,7 +25,7 @@
 </head>
 
 <body>
-	<a-scene embedded always-fullscreen arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
+	<a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
 		<a-assets>
 			<a-asset-item id="prayer-obj" src="/models/prayer/prayer.obj"></a-asset-item>
 			<a-asset-item id="prayer-mtl" src="/models/prayer/prayer.mtl"></a-asset-item>
@@ -39,18 +39,7 @@
 		
   		
 		
-		
-		<!-- <a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
-            		<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.3 0.3 0.3"></a-entity>
-		  </a-marker> -->
-<!-- 
-		 <a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
-            		<a-entity obj-model="obj: #tower-obj; mtl: #tower-mtl" scale="0.5 0.5 0.5"></a-entity>
-		  </a-marker> -->
-		  
-	<!-- 	<a-marker preset="bottombar" url="/markers/bottombar.patt">
-			<a-entity obj-model="obj: #church-obj; mtl: #church-mtl" scale="0.1 0.1 0.1"></a-entity>
-  		</a-marker> -->
+
 		
 		<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
 			<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.3 0.3 0.3"></a-entity>
