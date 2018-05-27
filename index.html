@@ -33,8 +33,6 @@
 			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
 			<a-asset-item id="church-obj" src="/models/church/church.obj"></a-asset-item>
 			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item>
-			<a-asset-item id="bench-obj" src="/models/tower/bench.obj"></a-asset-item>
-			<a-asset-item id="bench-mtl" src="/models/tower/bench.mtl"></a-asset-item>	
 		</a-assets>
 		
   		
@@ -52,8 +50,8 @@
   			</a-marker>
 
   			<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
-				<a-entity collada-model="#cathedral-dae" scale="0.2 0.2 0.2"></a-entity>
-			  </a-marker>
+				<a-obj-model src="#church-obj" mtl="#church-mtl" scale="0.1 0.1 0.1"></a-obj-model>
+			</a-marker>
 
 
 		  
