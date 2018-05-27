@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd tex_cathedral\wall.jpg
+map_Kd tex_cathedral\stone.jpg
 
 newmtl Material_aluminium.jpg
 Ns 96.078431
@@ -100,7 +100,7 @@ d 1.000000
 illum 2
 map_Kd tex_cathedral\small_stone.png
 
-newmtl Material_stone.jpg
+newmtl Material_wall.jpg
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -109,7 +109,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd tex_cathedral\stone.jpg
+map_Kd tex_cathedral\wall.jpg
 
 newmtl Material_walls.jpg
 Ns 96.078431
@@ -129,7 +129,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_cathedral\metal.jpg
+map_Kd tex_cathedral\walls.jpg
 
 newmtl None_NONE
 Ns 0
@@ -165,6 +165,15 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd tex_cathedral\frontface_window.png
+
+newmtl None_metal.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_cathedral\metal.jpg
 
 newmtl None_middle_door.png
 Ns 0
@@ -228,12 +237,3 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd tex_cathedral\upper_window.jpg
-
-newmtl None_walls.jpg
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_cathedral\walls.jpg
