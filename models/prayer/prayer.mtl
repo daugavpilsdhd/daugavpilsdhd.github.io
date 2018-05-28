@@ -1,5 +1,5 @@
 # Blender MTL File: 'prayer.blend'
-# Material Count: 40
+# Material Count: 43
 
 newmtl Material
 Ns 96.078431
@@ -54,6 +54,17 @@ d 1.000000
 illum 2
 map_Kd tex_prayer\bord.jpg
 
+newmtl Material.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_prayer\brick.and.roof.new.png
+
 newmtl None
 Ns 0
 Ka 0.000000 0.000000 0.000000
@@ -61,7 +72,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.quad.jpg
+map_Kd tex_prayer\okno.quad.jpg
 
 newmtl None_NONE
 Ns 0
@@ -71,15 +82,6 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 
-newmtl None_Untitled
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd white.png
-
 newmtl None_bord.jpg.001
 Ns 0
 Ka 0.000000 0.000000 0.000000
@@ -88,24 +90,6 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd tex_prayer\bord.jpg
-
-newmtl None_brick.and.roof.new.png
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_prayer\brick.and.roof.new.png
-
-newmtl None_brick.and.roof.new.png.001
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_prayer\brick.and.roof.new.png
 
 newmtl None_door.jpg
 Ns 0
@@ -134,236 +118,281 @@ d 1
 illum 2
 map_Kd tex_prayer\gold.jpg
 
-newmtl None_icon.jpg
+newmtl None_icon.levo.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\icon.jpg
+map_Kd tex_prayer\icon.levo.jpg
 
-newmtl None_icon.left.jpg
+newmtl None_icon.midle.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\icon.left.jpg
+map_Kd tex_prayer\icon.midle.jpg
 
-newmtl None_icon.right.jpg
+newmtl None_icon.pravo.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\icon.right.jpg
+map_Kd tex_prayer\icon.pravo.jpg
 
-newmtl None_window.jpg
+newmtl None_okna.three.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.001
+newmtl None_okna.three.jpg.001
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.002
+newmtl None_okna.three.jpg.002
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.003
+newmtl None_okna.three.jpg.003
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.004
+newmtl None_okna.three.jpg.004
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.005
+newmtl None_okna.three.jpg.005
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.006
+newmtl None_okna.three.jpg.006
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.007
+newmtl None_okna.three.jpg.007
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okna.three.jpg
 
-newmtl None_window.jpg.009
+newmtl None_okno.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.jpg.010
+newmtl None_okno.jpg.001
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.jpg.011
+newmtl None_okno.jpg.002
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.jpg.012
+newmtl None_okno.jpg.003
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.main.jpg
+newmtl None_okno.jpg.005
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.main.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.main.jpg.001
+newmtl None_okno.jpg.006
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.main.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.main.jpg.005
+newmtl None_okno.jpg.007
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.main.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.main.jpg.006
+newmtl None_okno.jpg.008
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.main.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.quad.jpg.001
+newmtl None_okno.jpg.017
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.quad.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.three.jpg
+newmtl None_okno.jpg.018
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.three.jpg.001
+newmtl None_okno.jpg.019
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.three.jpg.002
+newmtl None_okno.jpg.020
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.jpg
 
-newmtl None_window.three.jpg.003
+newmtl None_okno.main.jpg.001
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.main.jpg
 
-newmtl None_window.three.jpg.004
+newmtl None_okno.main.jpg.002
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.main.jpg
 
-newmtl None_window.three.jpg.005
+newmtl None_okno.main.jpg.003
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd tex_prayer\window.three.jpg
+map_Kd tex_prayer\okno.main.jpg
+
+newmtl None_okno.main.jpg.004
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okno.main.jpg
+
+newmtl None_okno.main.jpg.005
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okno.main.jpg
+
+newmtl None_okno.main.jpg.006
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okno.main.jpg
+
+newmtl None_okno.main.jpg.007
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okno.main.jpg
+
+newmtl None_okno.quad.jpg.001
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okno.quad.jpg
