@@ -1,16 +1,5 @@
 # Blender MTL File: 'cerkvushka dpils11.blend'
-# Material Count: 116
-
-newmtl Material
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 1.000000 1.000000 1.000000
-Ke 2.000000 2.000000 2.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd tex._church\roof2.jpg
+# Material Count: 115
 
 newmtl Material.001
 Ns 96.078431
@@ -231,9 +220,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd tex._church\okno2.png
 
-newmtl Material.022_NONE
+newmtl Material.022_okno2.png.005
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -242,6 +230,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd tex._church\okno2.png
 
 newmtl Material.023
 Ns 96.078431
@@ -252,9 +241,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd tex._church\okno2.png
 
-newmtl Material.023_NONE
+newmtl Material.023_okno2.png.005
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -263,6 +251,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd tex._church\okno2.png
 
 newmtl Material.024
 Ns 96.078431
@@ -1088,59 +1077,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl Material_NONE
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 1.000000 1.000000 1.000000
-Ke 2.000000 2.000000 2.000000
-Ni 1.000000
-d 1.000000
-illum 2
-
-newmtl Material_roof2.jpg.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 1.000000 1.000000 1.000000
-Ke 2.000000 2.000000 2.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd tex._church\roof2.jpg
-
-newmtl Material_roof2.jpg.002
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 1.000000 1.000000 1.000000
-Ke 2.000000 2.000000 2.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd tex._church\roof2.jpg
-
-newmtl Material_roof2.jpg.003
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 1.000000 1.000000 1.000000
-Ke 2.000000 2.000000 2.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd tex._church\roof2.jpg
-
 newmtl None
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex._church\okno2.png
-
-newmtl None_NONE
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
@@ -1165,3 +1102,48 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd C:\Users\User\Documents\daugavpilsdhd.github.io\models\okno2.png
+
+newmtl None_okno2.png.005
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex._church\okno2.png
+
+newmtl None_roof2.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex._church\roof2.jpg
+
+newmtl None_roof2.jpg.001
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex._church\roof2.jpg
+
+newmtl None_roof2.jpg.002
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex._church\roof2.jpg
+
+newmtl None_roof2.jpg.003
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex._church\roof2.jpg
