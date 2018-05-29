@@ -33,6 +33,7 @@
 			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
 			<a-asset-item id="church-obj" src="/models/church/church.obj"></a-asset-item>
 			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item>
+			<a-asset-item id="prayer-glb" src="/models/prayer/prayer.glb"></a-asset-item>
 		</a-assets>
 		
   		
@@ -40,7 +41,8 @@
 
 		<a-entity camera look-controls>
 			<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
-				<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.3 0.3 0.3"></a-entity>
+				<!-- <a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.3 0.3 0.3"></a-entity> -->
+				<a-entity gltf-model="#prayer-glb"></a-entity>
 			</a-marker>
 
 
