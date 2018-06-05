@@ -31,6 +31,7 @@
 			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
 			<a-asset-item id="church-obj" src="/models/church/church.obj"></a-asset-item>
 			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item>
+			<a-asset-item id="test-gltf" src="/models/test/test.gltf"></a-asset-item>
 		</a-assets>
 		
   		
@@ -48,7 +49,8 @@
   			</a-marker>
 
   			<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
-				<a-obj-model src="#church-obj" mtl="#church-mtl" scale="0.05 0.05 0.05"></a-obj-model>
+				<!-- <a-obj-model src="#church-obj" mtl="#church-mtl" scale="0.05 0.05 0.05"></a-obj-model> -->
+				<a-entity gltf-model="#test-gltf"></a-entity>
 			</a-marker>
 
 
