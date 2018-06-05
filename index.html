@@ -32,16 +32,18 @@
 			<a-asset-item id="cathedral-mtl" src="/models/cathedral/cathedral.mtl"></a-asset-item>
 			<a-asset-item id="church-obj" src="/models/church/church.obj"></a-asset-item>
 			<a-asset-item id="church-mtl" src="/models/church/church.mtl"></a-asset-item> -->
-			<a-asset-item id="test" src="/models/test/test.gltf"></a-asset-item>
+			<a-asset-item id="cathedral" src="/models/test/cathedral_unjoined_modified.gltf"></a-asset-item>
 		</a-assets>
 		
   		
 		
 
-		<!-- <a-entity camera look-controls>
+		<a-entity camera>
 			<a-marker preset="topbar" type='pattern' url="/markers/topbar.patt">
-				<a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.1 0.1 0.1"></a-entity>
-			</a-marker> -->
+				<!-- <a-entity obj-model="obj: #prayer-obj; mtl: #prayer-mtl" scale="0.1 0.1 0.1"></a-entity> -->
+				<a-gltf-model src="#cathedral" scale="0.1 0.1 0.1" ></a-gltf-model>
+				<a-light type="point" position="0.5 1 2"></a-light>
+			</a-marker>
 
 
 			<!-- <a-marker preset="bottombar" type='pattern' url="/markers/bottombar.patt">
@@ -51,8 +53,6 @@
 
   			<a-marker preset="centerbar" type='pattern' url="/markers/centerbar.patt">
 				<!-- <a-obj-model src="#church-obj" mtl="#church-mtl" scale="0.05 0.05 0.05"></a-obj-model> -->
-				<a-gltf-model src="#test" scale="0.1 0.1 0.1" position="0.5 1 1"></a-gltf-model>
-				<a-light type="point" position="0.5 1 2">
 			</a-marker>
 
 
