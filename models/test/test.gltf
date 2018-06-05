@@ -98,7 +98,7 @@
     "images" : [
         {
             "name" : "brick",
-            "uri" : "tex_test/brick.jpg"
+            "uri" : "brick.jpg"
         }
     ],
     "materials" : [
