@@ -2,10 +2,10 @@
     "accessors" : [
         {
             "bufferView" : 0,
-            "componentType" : 5123,
-            "count" : 864,
+            "componentType" : 5121,
+            "count" : 432,
             "max" : [
-                447
+                223
             ],
             "min" : [
                 0
@@ -15,14 +15,14 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 448,
+            "count" : 224,
             "max" : [
                 3.0605688095092773,
                 1.0000001192092896,
                 1.0
             ],
             "min" : [
-                -3.0605688095092773,
+                1.0605688095092773,
                 -1.0,
                 -1.0
             ],
@@ -31,7 +31,7 @@
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 448,
+            "count" : 224,
             "max" : [
                 1.0,
                 1.0,
@@ -47,7 +47,7 @@
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 448,
+            "count" : 224,
             "max" : [
                 1.0,
                 1.0252812504768372
@@ -66,32 +66,32 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 1728,
+            "byteLength" : 432,
             "byteOffset" : 0,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 5376,
-            "byteOffset" : 1728,
+            "byteLength" : 2688,
+            "byteOffset" : 432,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 5376,
-            "byteOffset" : 7104,
+            "byteLength" : 2688,
+            "byteOffset" : 3120,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 3584,
-            "byteOffset" : 12480,
+            "byteLength" : 1792,
+            "byteOffset" : 5808,
             "target" : 34962
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 16064,
+            "byteLength" : 7600,
             "uri" : "test.bin"
         }
     ],
@@ -99,11 +99,18 @@
         {
             "name" : "brick",
             "uri" : "brick.jpg"
+        },
+        {
+            "name" : "brick_NRM",
+            "uri" : "brick_NRM.jpg"
         }
     ],
     "materials" : [
         {
             "name" : "Material.001",
+            "normalTexture" : {
+                "index" : 1
+            },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -138,9 +145,36 @@
                 0.7071068286895752
             ],
             "translation" : [
-                -2.796539545059204,
-                1.0,
-                -0.0
+                -3.0293779373168945,
+                0.9579268097877502,
+                -0.15117323398590088
+            ]
+        },
+        {
+            "name" : "Point",
+            "translation" : [
+                -0.8175901770591736,
+                1.1695932149887085,
+                1.3843997716903687
+            ]
+        },
+        {
+            "name" : "Sun",
+            "rotation" : [
+                0.09475542604923248,
+                -0.16057147085666656,
+                -0.028861921280622482,
+                0.9820413589477539
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation" : [
+                -0.8175901770591736,
+                83.84732055664062,
+                65.45127868652344
             ]
         }
     ],
@@ -152,6 +186,8 @@
         {
             "name" : "Scene",
             "nodes" : [
+                1,
+                2,
                 0
             ]
         }
@@ -160,6 +196,10 @@
         {
             "sampler" : 0,
             "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
         }
     ]
 }
