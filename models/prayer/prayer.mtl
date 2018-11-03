@@ -199,6 +199,24 @@ d 1
 illum 2
 map_Kd tex_prayer\okna.three.jpg
 
+newmtl None_okna.three.jpg.006
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okna.three.jpg
+
+newmtl None_okna.three.jpg.007
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tex_prayer\okna.three.jpg
+
 newmtl None_okno.jpg
 Ns 0
 Ka 0.000000 0.000000 0.000000
@@ -378,21 +396,3 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd tex_prayer\okno.quad.jpg
-
-newmtl None_window.three.jpg
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_prayer\window.three.jpg
-
-newmtl None_window.three.jpg.001
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd tex_prayer\window.three.jpg
