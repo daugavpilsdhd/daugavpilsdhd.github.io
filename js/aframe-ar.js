@@ -4151,7 +4151,8 @@ THREE.WebAR.createVRSeeThroughCameraMesh = function(vrDisplay,
     material = new THREE.MeshBasicMaterial(
       {color: 0xFFFFFF, side: THREE.DoubleSide, map: videoTexture } );
   }
-
+  material.polygonOffset = true;
+  material.polygonOffsetFactor = -0.1;
   var mesh = new THREE.Mesh(geometry, material);
 
   return mesh;
@@ -4600,7 +4601,8 @@ THREEx.ArMarkerCloak = function(videoTexture){
         var material = new THREE.MeshNormalMaterial({
 		transparent : true,
 		opacity: 0.5,
-		side: THREE.DoubleSide
+		side: THREE.DoubleSide,
+		
 	});
         var geometry = new THREE.PlaneGeometry(1,1);
         var orthoMesh = new THREE.Mesh(geometry, material);
