@@ -4188,7 +4188,7 @@ THREE.WebAR.updateCameraMeshOrientation = function(vrDisplay, cameraMesh) {
 */
 THREE.WebAR.createVRSeeThroughCamera = function(vrDisplay, near, far) {
   var camera = new THREE.PerspectiveCamera( 60,
-    window.innerWidth / window.innerHeight, near, far );
+    window.innerWidth / window.innerHeight, near + 50, far );
   if (vrDisplay) {
     THREE.WebAR.resizeVRSeeThroughCamera(vrDisplay, camera);
   }
