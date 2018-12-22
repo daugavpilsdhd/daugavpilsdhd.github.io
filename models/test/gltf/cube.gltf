@@ -109,6 +109,7 @@
     ],
     "materials" : [
         {
+            "alphaMode" : "BLEND",
             "name" : "Material.001",
             "normalTexture" : {
                 "index" : 1
