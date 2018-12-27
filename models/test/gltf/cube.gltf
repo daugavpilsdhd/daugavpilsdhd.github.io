@@ -97,10 +97,6 @@
     ],
     "images" : [
         {
-            "name" : "brick_NRM",
-            "uri" : "brick_NRM.jpg"
-        },
-        {
             "name" : "brick",
             "uri" : "brick.jpg"
         }
@@ -109,9 +105,6 @@
         {
             "alphaMode" : "BLEND",
             "name" : "Material.001",
-            "normalTexture" : {
-                "index" : 0
-            },
             "pbrMetallicRoughness" : {}
         }
     ],
@@ -164,10 +157,6 @@
         {
             "sampler" : 0,
             "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
         }
     ]
 }
