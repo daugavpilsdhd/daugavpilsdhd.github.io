@@ -103,9 +103,12 @@
     ],
     "materials" : [
         {
-            "alphaMode" : "BLEND",
             "name" : "Material.001",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }
+            }
         }
     ],
     "meshes" : [
