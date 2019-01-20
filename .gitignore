@@ -1,6 +1,6 @@
 arjs pivot.png
-/cathedral/*
-/cathedral/backup/*
-/cathedral/'obj and mtl'/*
-/cathedral/tex_cathedral/*
-!/cathedral/gltf/*
+models/cathedral/*
+models/cathedral/backup/*
+models/cathedral/'obj and mtl'/*
+models/cathedral/tex_cathedral/*
+!models/cathedral/gltf/*
